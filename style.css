@@ -144,23 +144,24 @@ float:right
     width: 250px;
  
 }
+/* css per star rating po se kam futur akoma
 .star-rating{
     color: #bebebe;
     font-size:2em;
 }
-/*create the star*/
+
 .my-star::before{
     content:"\002605";
 }
-/*remove the default style (italic) of the star*/
+
 .my-star{
     font-style: unset !important;
 }
-/*set active star color*/
+
 .is-active{
     color:#fb8900;
 }
-/*set color on hover*/
+
 .my-star:not(.is-active):hover{
     color: #fb8900;
-}
+} */
